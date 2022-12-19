@@ -16,7 +16,7 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    if message.content.startswith('cringe'):
+    if message.content.casefold().startswith('cringe'):
         await message.channel.send('Nyaa~ uwu')
 
 load_dotenv()
