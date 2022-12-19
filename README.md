@@ -20,3 +20,13 @@ Remove events that have gone past the date within the discord.
 After an event is created using a commend, the persons command message should be deleted for clean up (or a seperate event creation channel if that works better),
 
 People should be told off for posting outisde of a thread with anything other than an appropriate command. (Keep this to DMs, no need to spam the channel with nonsense, people and bots)
+
+Dependancies:
+
+Python 3.10.1
+
+Discord.py for Python Discord Library:
+py -3 -m pip install -U discord.py
+
+For working with enviromental variables for secrets:
+pip3 install python-dotenv
