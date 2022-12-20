@@ -19,6 +19,9 @@ async def on_message(message):
     if message.content.casefold().startswith('cringe'):
         await message.channel.send('Nyaa~ uwu')
 
+    if message.content.casefold().startswith('mew'):
+        await message.channel.send('/ᐠ. ｡.ᐟ\\\ᵐᵉᵒʷˎˊ˗')
+
 load_dotenv()
 token = (os.environ.get('BOT_AUTH_TOKEN'))
 client.run(token)
