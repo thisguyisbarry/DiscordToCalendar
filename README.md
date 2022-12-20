@@ -1,17 +1,25 @@
 This is a bot that automates the process of converting a discord channel with messages in the format of
-Event: 
-Location: 
-Date: 
-Time: 
-Decisions to be made: 
+
+Event:
+ 
+Location:
+ 
+Date:
+ 
+Time:
+ 
+Decisions to be made:
+ 
 Links (if appropriate):
+
 
 It will then create, or add to, a google calendar list so that people can subscribe and automatically have any events created in their calendars without having to keep up to date with a discord channel.
 
 
 Above the minimum viable product (TODO):
 
-Bot should moderate the event channel in discord. 
+Bot should moderate the event channel in discord.
+ 
 By having a helper command to set up events, and by deleting peoples irrelevant messages in the top level channel (outside thread).
 Ensure that the thread for each event in discord is added.
 
@@ -26,7 +34,9 @@ Dependancies:
 Python 3.10.1
 
 Discord.py for Python Discord Library:
+
 py -3 -m pip install -U discord.py
 
 For working with enviromental variables for secrets:
+
 pip3 install python-dotenv
