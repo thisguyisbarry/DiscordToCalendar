@@ -22,7 +22,7 @@ async def on_message(message):
     if message.content.casefold().startswith('mew'):
         await message.channel.send('/ᐠ. ｡.ᐟ\\\ᵐᵉᵒʷˎˊ˗')
 
-    if message.content.casefold().contains('bonk'):
+    if "bonk" in message.content.casefold():
         await message.channel.send('<:opalBonk:1055507310526599198>')
 
 load_dotenv()
